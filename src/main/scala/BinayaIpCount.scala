@@ -73,6 +73,8 @@ import spark.implicits._
     val firstRec = rdd7.first()
     println("First Record : "+firstRec._1 + ","+ firstRec._2)
 
+    println("hello Binaya")
+
     val datMax = rdd7.max()
     println("Max Record : "+datMax._1 + ","+ datMax._2)
 
