@@ -63,6 +63,8 @@ import spark.implicits._
 
 
 
+println("hhhhhhhh")
+
     val rdd4 = spark.sparkContext.wholeTextFiles("/home/binaya/Desktop/Optum/test.txt").values.collect()
    println(rdd4.mkString(" "))
 
