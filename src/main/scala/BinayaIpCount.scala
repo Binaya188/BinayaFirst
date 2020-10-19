@@ -17,6 +17,8 @@ object BinayaIpCount {
       .setMaster("local[*]")
       .setAppName("SparkTestJob")
 
+println("allright")
+
     val spark = SparkSession
       .builder()
       .config("spark.sql.warehouse.dir", "file:///tmp/spark-warehouse")
