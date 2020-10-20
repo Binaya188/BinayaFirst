@@ -19,7 +19,7 @@ object WebsiteCheck {
       .sortBy(_._2,ascending = false).collect()
     rdd1.take(5).foreach(println)
 
-
+println("code looks good")
 
   }
 }
